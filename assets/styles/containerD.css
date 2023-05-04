@@ -1,27 +1,24 @@
 :root {
-  --bg: #251f24;
+  --bg: #ffffff;
   --header-bg: linear-gradient(
       274.51deg,
       rgba(74, 0, 224, 0.6) 5%,
       rgba(142, 45, 226, 0.5) 130.61%
     ),
     url("../images/patron-2.png");
-  --code-bg: #3a3539;
-  --footer-bg: #fff;
-  --quote-bg: #3a3539;
-
-  /* Forms */
-  /* Input */
-  --input-border: 1px solid #ffffff;
-  --input-bg: transparent;
-  --input-color: #ffffff;
+  --code-bg: #ffffff;
+  --footer-bg: #000000;
+  --quote-bg: #ffffff;
+  --input-border: 1px solid #000000;
+  --input-bg: #ffffff;
+  --input-color: #000000;
   --btn-text-color: #ffffff;
   --btn-bg: #157efb;
 
-  --title-color: #ffffff;
+  --title-color: #000000;
   --paragraph-color: #a5a3a5;
-  --list-title-color: #fff;
-  --footer-text-color: #251f24;
+  --list-title-color: #000000;
+  --footer-text-color: #ffffff;
   --link-color: #157efb;
 }
 
@@ -152,6 +149,18 @@ body {
   color: var(--input-color);
 }
 
+.box-model-section{
+  text-align: left;
+}
+
+pre {
+  text-align: left;
+  padding: 40px;
+  color: var(--title-color);
+  background: var(--code-bg);
+  border-radius: 8px;
+}
+
 .form__input::placeholder {
   color: var(--input-color);
 }
@@ -176,7 +185,6 @@ body {
   box-sizing: border-box;
 }
 
-/* Text */
 h1 {
   margin: 0;
   font-style: normal;
@@ -195,7 +203,7 @@ h2 {
 }
 
 h3 {
-  width: max-content;
+
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -225,18 +233,6 @@ blockquote span {
   line-height: 32px;
 }
 
-pre {
-  padding: 40px;
-  white-space: pre-wrap; /* css-3 */
-  white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
-  white-space: -pre-wrap; /* Opera 4-6 */
-  white-space: -o-pre-wrap; /* Opera 7 */
-  word-wrap: break-word; /* Internet Explorer 5.5+ */
-  color: var(--title-color);
-  background: var(--code-bg);
-  border-radius: 8px;
-}
-
 .email-link {
   color: var(--link-color);
 }
@@ -258,13 +254,6 @@ pre {
   font-size: 32px;
   line-height: 37px;
   color: var(--footer-text-color);
-}
-
-@media screen and (max-width: 1024px) {
-  .wrapper {
-    padding: 0 40px;
-    box-sizing: border-box;
-  }
 }
 
 @media screen and (max-width: 768px) {

@@ -215,18 +215,6 @@ blockquote span {
   line-height: 32px;
 }
 
-pre {
-  padding: 40px;
-  white-space: pre-wrap; /* css-3 */
-  white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
-  white-space: -pre-wrap; /* Opera 4-6 */
-  white-space: -o-pre-wrap; /* Opera 7 */
-  word-wrap: break-word; /* Internet Explorer 5.5+ */
-  color: var(--title-color);
-  background: var(--code-bg);
-  border-radius: 8px;
-}
-
 .email-link {
   color: var(--link-color);
 }
@@ -248,13 +236,6 @@ pre {
   font-size: 32px;
   line-height: 37px;
   color: var(--footer-text-color);
-}
-
-@media screen and (max-width: 1024px) {
-  .wrapper {
-    padding: 0 40px;
-    box-sizing: border-box;
-  }
 }
 
 @media screen and (max-width: 768px) {
