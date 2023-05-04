@@ -1,26 +1,27 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 :root {
-  --bg: #fff;
-  --code-bg: #e5e5e5;
-  --footer-bg: #212429;
+  --bg: #232946;
+  --header-bg: linear-gradient(96.07deg, #314755 30.63%, #26a0da 102.18%);
+  --code-bg: transparent;
+  --footer-bg: #eebbc3;
+  --quote-bg: #d4939d;
 
   /* Forms */
   /* Input */
-  --input-border: 1px solid #616161;
+  --input-border: 1px solid #ffffff;
   --input-bg: transparent;
-  --input-color: #424242;
-  --btn-text-color: #ffffff;
-  --btn-bg: #000000;
+  --input-color: #ffffff;
+  --btn-text-color: #232946;
+  --btn-bg: #eebbc3;
 
-  --title-color: #212121;
-  --paragraph-color: #424242;
-  --list-title-color: #251f24;
-  --footer-text-color: #ffffff;
-  --link-color: #251f24;
+  --title-color: #ffffff;
+  --paragraph-color: #b8c1ec;
+  --list-title-color: #fff;
+  --footer-text-color: #232946;
+  --link-color: #eebbc3;
 }
 
 html {
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   color: var(--paragraph-color);
   scroll-behavior: smooth;
@@ -33,7 +34,6 @@ body {
 
 .wrapper {
   display: flex;
-  flex-direction: column;
   width: 100%;
   margin: 0 auto;
   margin-top: 64px;
@@ -70,7 +70,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 24px;
-  color: #808080;
+  color: #b8c1ec;
   border-radius: 4px;
   box-sizing: border-box;
   text-decoration: none;
@@ -98,7 +98,7 @@ body {
 }
 .dropdown ol li::before {
   content: counter(li);
-  color: #616161;
+  color: #b8c1ec;
   display: inline-block;
   width: 1em;
   margin-left: -1em;
@@ -107,7 +107,7 @@ body {
   counter-increment: li;
 }
 .dropdown a {
-  color: #616161;
+  color: #b8c1ec;
   text-decoration: none;
 }
 .dropdown a:hover {
@@ -120,7 +120,6 @@ body {
 
 .main-content {
   width: 100%;
-  margin-top: 80px;
 }
 
 .form__title {
@@ -167,7 +166,7 @@ body {
 h1 {
   margin: 0;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 60px;
   line-height: 70px;
   color: var(--title-color);
@@ -175,16 +174,15 @@ h1 {
 
 h2 {
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 32px;
   line-height: 37px;
   color: var(--title-color);
 }
 
 h3 {
-  width: max-content;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 24px;
   line-height: 28px;
   color: var(--title-color);
@@ -199,8 +197,9 @@ p {
 blockquote {
   margin: 0;
   padding: 20px;
-  color: var(--title-color);
-  border-left: 4px solid black;
+  color: #232946;
+  border-radius: 8px;
+  background-color: var(--quote-bg);
 }
 
 blockquote span {

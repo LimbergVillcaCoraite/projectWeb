@@ -1,33 +1,25 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@100;300;400;500;700;900&display=swap");
 :root {
-  --bg: #251f24;
-  --header-bg: linear-gradient(
-      274.51deg,
-      rgba(74, 0, 224, 0.6) 5%,
-      rgba(142, 45, 226, 0.5) 130.61%
-    ),
-    url("./assets/images/patron-2.png");
-  --code-bg: #3a3539;
-  --footer-bg: #fff;
-  --quote-bg: #3a3539;
+  --bg: #fff;
+  --code-bg: #e5e5e5;
+  --footer-bg: #212429;
 
   /* Forms */
   /* Input */
-  --input-border: 1px solid #ffffff;
+  --input-border: 1px solid #616161;
   --input-bg: transparent;
-  --input-color: #ffffff;
+  --input-color: #424242;
   --btn-text-color: #ffffff;
-  --btn-bg: #157efb;
+  --btn-bg: #000000;
 
-  --title-color: #ffffff;
-  --paragraph-color: #a5a3a5;
-  --list-title-color: #fff;
-  --footer-text-color: #251f24;
-  --link-color: #157efb;
+  --title-color: #212121;
+  --paragraph-color: #424242;
+  --list-title-color: #251f24;
+  --footer-text-color: #ffffff;
+  --link-color: #251f24;
 }
 
 html {
-  font-family: "Rubik", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   color: var(--paragraph-color);
   scroll-behavior: smooth;
@@ -40,23 +32,16 @@ body {
 
 .wrapper {
   display: flex;
-  flex-direction: row-reverse;
-  gap: 45px;
+  flex-direction: column;
   width: 100%;
   margin: 0 auto;
   margin-top: 64px;
   max-width: 1024px;
 }
 
-.header {
-  width: 100%;
-  height: 350px;
-  background: var(--header-bg);
-  background-repeat: repeat;
-}
-
 .aside {
   width: 240px;
+  margin-right: 45px;
 }
 .aside-navbar {
   position: sticky;
@@ -134,7 +119,7 @@ body {
 
 .main-content {
   width: 100%;
-  text-align: center;
+  margin-top: 80px;
 }
 
 .form__title {
@@ -214,8 +199,7 @@ blockquote {
   margin: 0;
   padding: 20px;
   color: var(--title-color);
-  border-radius: 8px;
-  background-color: var(--quote-bg);
+  border-left: 4px solid black;
 }
 
 blockquote span {
