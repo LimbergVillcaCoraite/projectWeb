@@ -256,7 +256,7 @@ blockquote span {
   color: var(--footer-text-color);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .wrapper {
     flex-direction: column;
   }
