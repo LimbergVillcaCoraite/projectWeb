@@ -1,10 +1,10 @@
 ![](https://github.com/LimbergVillcaCoraite/projectWeb/blob/9415416cf13c09fa2e42e758f44bba1b61fd5db7/index.html.png)
 
 ### Acerca del proyecto
-
+Proyecto presentado para etapa de desarrollo web
 ---
 ### Setup
-
+Sistem Operativo: ![](https://iconos8.es/icon/6M7Il2xpbLYM/arch-linux)
 ---
 ### Tecnologias
 
