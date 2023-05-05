@@ -4,10 +4,15 @@
 Proyecto presentado para etapa de desarrollo web
 ---
 ### Setup
-Sistema operativo:
-![](https://i.postimg.cc/w3K9J0t9/icons8-arch-linux-24.png)
+- Systema operativo: Arch Linux
+- Navegador: Firefox
+- Editor de codigo: Nvim
+- Control de versiones: Github
+
 ---
 ### Tecnologias
+- HTML
+- CSS
 
 ---
 ### Estructura del proyecto
