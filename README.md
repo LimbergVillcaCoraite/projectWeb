@@ -4,7 +4,8 @@
 Proyecto presentado para etapa de desarrollo web
 ---
 ### Setup
-Sistem Operativo: ![](https://iconos8.es/icon/6M7Il2xpbLYM/arch-linux)
+Sistema operativo:
+![](https://i.postimg.cc/w3K9J0t9/icons8-arch-linux-24.png)
 ---
 ### Tecnologias
 
